@@ -1,0 +1,12 @@
+# \u5E94\u7528\u540D\u79F0
+spring:
+  application:
+    name: eurekaserver
+server:
+  port: 10086
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+

@@ -1,6 +1,7 @@
 # Compiled class file
 *.class
-
+#IDEA工作目录
+.idea/*
 # Log file
 *.log
 
