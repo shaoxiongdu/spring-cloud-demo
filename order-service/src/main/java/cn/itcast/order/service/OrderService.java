@@ -25,6 +25,8 @@ public class OrderService {
         //请求地址
         String url = "http://user-service/user/" + order.getUserId();
 
+
+
         //远程调用用户服务
         User forObject = restTemplate.getForObject(url, User.class);
 
