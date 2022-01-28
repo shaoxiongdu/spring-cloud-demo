@@ -6,15 +6,6 @@ spring:
     username: root
     password: 1002
     driver-class-name: com.mysql.jdbc.Driver
-  application:
-    name: order-service
-  cloud:
-    nacos:
-      #设置nacos的server register center 地址
-      server-addr: localhost:8848
-      discovery:
-        # 指定集群名称
-        cluster-name: HZ
 userservice:
   ribbon:
     NFloadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
@@ -22,12 +13,6 @@ mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
     map-underscore-to-camel-case: true
-logging:
-  level:
-    cn.itcast: debug
-  pattern:
-    dateformat: MM-dd HH:mm:ss:SSS
-
 #eureka:
 #  client:
 #    service-url:
