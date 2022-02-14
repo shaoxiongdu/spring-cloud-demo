@@ -4,7 +4,7 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false
+    url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1002
     driver-class-name: com.mysql.jdbc.Driver
