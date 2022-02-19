@@ -1,8 +1,7 @@
 
 # 分布式-微服务-java栈-spring-cloud
-> 2022 Q1 dushaoxiong@lixiang.com / email@shaoxiongdu.cn
 > 2022Q1学习笔记
-联系我
+> ### 联系我
 > - 工作邮箱:dushaoxiong@lixiang.com
 > - 个人邮箱：email@shaoxiongdu.cn
 > - 个人博客: shaoxiongdu.cn
