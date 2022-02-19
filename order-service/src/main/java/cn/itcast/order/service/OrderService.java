@@ -22,6 +22,9 @@ public class OrderService {
         // 1.查询订单
         Order order = orderMapper.findById(orderId);
 
+        //请求地址
+        String url = "http://user-service/user/" + order.getUserId();
+
         //远程调用用户服务
         User user = userClient.findById(order.getUserId());
 
